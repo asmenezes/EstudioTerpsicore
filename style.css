@@ -1,10 +1,11 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  color: rgba(255,255,255,0.9);
-  font-family: arial,sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: arial, sans-serif;
 }
-#index{
+
+#index {
   background-image: url("./pics/HomeBack.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -12,17 +13,17 @@
   height: 100vh;
 }
 
-#HomeLogo{
+#HomeLogo {
   padding: 1em;
   padding-top: .9em;
 }
 
-.main-nav{
+.main-nav {
   float: right;
   padding: 1em;
 }
 
-.main-nav li a{
+.main-nav li a {
   list-style: none;
   text-decoration: none;
   padding: 1em;
@@ -30,4 +31,71 @@
 
 .main-nav li {
   display: inline;
+}
+
+.wide {
+  width: 100%;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.wide p {
+  width: 60%;
+  text-align: center;
+  margin: 1.5em auto;
+}
+
+.float {
+  width: max-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  margin-top: 10%;
+}
+
+.dark {
+  background-color: rgb(255, 96, 166);
+}
+
+.light {
+  background-color: #FFEBE7;
+}
+
+.light h2 {
+  color: rgba(0, 0, 0, .9);
+}
+
+.light p {
+  color: rgba(0, 0, 0, .9);
+}
+
+.parcont {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer {
+  height: 50%;
+}
+
+/* espetaculo */
+#espetaculo {}
+
+.esp1 {
+  background-image: url("./pics/ballet-performances.jpg");
+  min-height: 90vh;
+  background-position: 6% 50%;
+}
+
+.esp2 {
+  background-image: url("./pics/Jardim.jpg");
+  min-height: 60vh;
 }
