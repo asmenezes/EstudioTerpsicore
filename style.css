@@ -3,3 +3,10 @@
   margin: 0;
   color: rgba(255,255,255,0.9);
 }
+#index{
+  background-image: url("./pics/HomeBack.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
