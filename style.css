@@ -15,7 +15,7 @@
 
 #HomeLogo {
   padding: 1em;
-  padding-top: .9em;
+  padding-top: 0;
 }
 
 .main-nav {
@@ -50,7 +50,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em;
+  padding: 1.5em 6em;
   margin-top: 10%;
 }
 
@@ -97,5 +97,35 @@ h2 {
 
 .esp2 {
   background-image: url("./pics/Jardim.jpg");
+  min-height: 80vh;
+}
+
+.esp3 {
+  background-image: url("./pics/Coppelia.jpg");
+  min-height: 75vh;
+}
+
+.esp4 {
+  background-image: url("./pics/lafilee.jpg");
+  min-height: 70vh;
+}
+
+.esp5 {
+  background-image: url("./pics/Cauby.jpg");
+  min-height: 73vh;
+}
+
+.esp6 {
+  background-image: url("./pics/Quinze.jpg");
   min-height: 60vh;
+}
+
+.esp7 {
+  background-image: url("./pics/Tessituras.jpg");
+  min-height: 69vh;
+}
+
+.esp8 {
+  background-image: url("./pics/Fragmentos.jpg");
+  min-height: 72vh;
 }
